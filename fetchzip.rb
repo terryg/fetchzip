@@ -142,7 +142,7 @@ class FetchZip
       end
     end
 
-    CSV.open("sandlers_delivery_days.csv", "wb") do |csv|
+    CSV.open("delivery_days.csv", "wb") do |csv|
       delivery_array.each do |a|
         csv << a
       end
